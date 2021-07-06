@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+// font size is 1rem = 16px convert it to 10px so 1rem = 10px
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.mainContainer {
+	padding: 0 8rem;
+	@media (max-width: 767px) {
+		padding: 0 4rem;
+	}
+	@media (max-width: 480px) {
+		padding: 0 2rem;
+	}
+}
+// headings
+
+h1 {
+	font-size: 4.5rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	@media (max-width: 767px) {
+		font-size: 2.2rem;
+	}
+}
+h2 {
+	font-size: 3.5rem;
+	font-weight: 500;
+	margin-bottom: 2rem;
+	letter-spacing: 1.3px;
+}
+h3 {
+	font-size: 2.5rem;
+	font-weight: 300;
+	letter-spacing: 1.3px;
+
+	margin-bottom: 2rem;
+	@media (max-width: 767px) {
+		font-size: 1.6rem;
+	}
+}
+
+h4 {
+	font-size: 2rem;
+	font-weight: 300;
+	letter-spacing: 1.3;
+	margin-bottom: 1rem;
+}
+
+.para {
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 1.5;
+	padding-bottom: 1rem;
+	letter-spacing: 1.3px;
+}
+.skill {
+	font-size: 1rem;
+	font-weight: 500;
+	padding: 15px;
+}
+
+// buttons
+.theme-btn {
+	font-size: 1.6rem;
+	font-weight: 500;
+
+	padding: 1.6rem 3.5rem;
+	width: 100%;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	letter-spacing: 1.3px;
+	&--project-btn {
+		background-color: var(--dark-bg-button);
+		color: var(--color-white);
+		border: none;
+		display: inline-block;
+		text-align: center;
+		outline: none;
+		&:hover {
+			background-color: var(--main-color);
+		}
+	}
+	&--grey {
+		background-color: var(--bg-grey);
+		&:hover {
+			color: var(--main-color);
+		}
+	}
+	&--dark-grey {
+		background-color: var(--dark-bg-button);
+		color: var(--color-white);
+		&:hover {
+			background-color: var(--main-color);
+		}
+	}
+	&__outline {
+		border: 2px solid #fff;
+		background-color: transparent;
+		color: var(--color-white);
+		margin: 10px 0;
+		letter-spacing: 0.3rem;
+	}
+}
+a {
+	color: var(--bg-black);
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.center-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+// font sizes
+
+.fs-16 {
+	font-size: 1.6rem;
+}
+.fs-20 {
+	font-size: 2rem;
+}
+
+.fs-25 {
+	font-size: 2.5rem;
+}
+
+img {
+	width: 100%;
+}
+
+.section-padding {
+	padding: 4rem 0;
+}
+
+.d-flex {
+	display: flex;
+}
+.w-50 {
+	width: 50%;
+}
+.p20 {
+	padding: 2rem 0;
+}
+
+.p10 {
+	padding: 1rem 0;
+}
+.mtop20 {
+	margin-top: 2re;
+}
+.mb-20 {
+	margin-bottom: 2rem;
+}

@@ -1,0 +1,52 @@
+// .section-1 {
+// 	width: 100%;
+// 	position: relative;
+// 	height: 100vh;
+// 	@media (max-width: 767px) {
+// 		background-color: var(--bg-black);
+// 		color: var(--color-white);
+// 	}
+
+// 	&__wrapper {
+// 		width: 90%;
+// 		padding: 20px;
+// 		@media (max-width: 767px) {
+// 			position: absolute;
+// 			top: 50%;
+// 			left: 50%;
+// 			transform: translate(-50%, -50%);
+// 		}
+// 		.pretext,
+// 		h1 {
+// 			letter-spacing: 0.3rem;
+// 		}
+// 		.pretext {
+// 			color: var(--color_theme-btn);
+// 			font-weight: 700;
+// 		}
+// 	}
+// }
+
+// .section-2 {
+// 	width: 100%;
+// 	height: 100vh;
+// 	&__wrapper {
+// 		display: flex;
+// 		flex-direction: column;
+// 		justify-content: space-evenly;
+// 		height: 100vh;
+
+// 		.about-us-header {
+// 			text-align: center;
+// 		}
+// 		.about-us-content {
+// 			padding: 0 40px;
+// 		}
+
+// 		.about {
+// 			font-weight: 700;
+// 			color: var(--color_theme-btn);
+// 			letter-spacing: 1.5px;
+// 		}
+// 	}
+// }
